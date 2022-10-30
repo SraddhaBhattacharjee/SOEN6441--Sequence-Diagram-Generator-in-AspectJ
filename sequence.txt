@@ -1,0 +1,63 @@
+@startuml
+autonumber
+[-> Test: main(args : String[]) :void
+activate Test
+Test -> Blogger: addObserver(observer : Observer) :void
+activate Blogger
+Test <-- Blogger
+deactivate Blogger
+Test -> Blogger: addObserver(observer : Observer) :void
+activate Blogger
+Test <-- Blogger
+deactivate Blogger
+Test -> Blogger: addObserver(observer : Observer) :void
+activate Blogger
+Test <-- Blogger
+deactivate Blogger
+Test -> Blogger: setHeadline(state : String) :void
+activate Blogger
+Blogger -> Blogger: notifyObservers() :void
+activate Blogger
+Blogger -> Newsportal: update() :void
+activate Newsportal
+Newsportal -> Blogger: getHeadline() :String
+activate Blogger
+Newsportal <-- Blogger:Le Comiccon de Montreal. Du 13 au 15 septembre 2013.
+deactivate Blogger
+Blogger <-- Newsportal
+deactivate Newsportal
+Blogger -> Newspaper: update() :void
+activate Newspaper
+Newspaper -> Blogger: getHeadline() :String
+activate Blogger
+Newspaper <-- Blogger:Le Comiccon de Montreal. Du 13 au 15 septembre 2013.
+deactivate Blogger
+Blogger <-- Newspaper
+deactivate Newspaper
+Blogger -> MobileSubscriber: update() :void
+activate MobileSubscriber
+MobileSubscriber -> Blogger: getHeadline() :String
+activate Blogger
+MobileSubscriber <-- Blogger:Le Comiccon de Montreal. Du 13 au 15 septembre 2013.
+deactivate Blogger
+Blogger <-- MobileSubscriber
+deactivate MobileSubscriber
+Blogger <-- Blogger
+deactivate Blogger
+Test <-- Blogger
+deactivate Blogger
+Test -> Newsportal: getState() :String
+activate Newsportal
+Test <-- Newsportal:Newsportal: Le Comiccon de Montreal. Du 13 au 15 septembre 2013.
+deactivate Newsportal
+Test -> Newspaper: getState() :String
+activate Newspaper
+Test <-- Newspaper:Newspaper: Le Comiccon de Montreal. Du 13 au 15 septembre 2013.
+deactivate Newspaper
+Test -> MobileSubscriber: getState() :String
+activate MobileSubscriber
+Test <-- MobileSubscriber:MobileSubscriber: Le Comiccon de Montreal. Du 13 au 15 septembre 2013.
+deactivate MobileSubscriber
+[<--Test
+deactivate Test
+@enduml
