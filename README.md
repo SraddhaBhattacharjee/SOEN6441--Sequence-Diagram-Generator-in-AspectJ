@@ -1,5 +1,4 @@
 # SOEN6441--Sequence-Diagram-Generator-in-AspectJ
-Sequence Diagram Generator in AspectJ
 
 Authors: Sraddha Bhattacharjee (Student ID: 40221370),
          Saketh Oppula (Student ID: 40221013)
