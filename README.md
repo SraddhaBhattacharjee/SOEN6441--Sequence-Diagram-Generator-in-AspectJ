@@ -1,7 +1,7 @@
 # SOEN6441--Sequence-Diagram-Generator-in-AspectJ
 Sequence Diagram Generator in AspectJ
 
-Authors: Sraddha Bhattacharjee (Student ID: 40221370)
+Authors: Sraddha Bhattacharjee (Student ID: 40221370),
          Saketh Oppula (Student ID: 40221013)
         
 Goal: The created application demonstrates monitoring the execution of a scenario in the base application and saves data in a text file.
