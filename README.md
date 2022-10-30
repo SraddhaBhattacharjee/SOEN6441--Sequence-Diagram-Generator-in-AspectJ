@@ -13,6 +13,7 @@ Aspect Program developed using: AspectJ
 Text-to-UML tool Used: PlantUML
 
 Expected Outputs:
+
        1. A text file (sequence.txt) produced by the AspectJ program (used as input to the PlantUML tool, which in turn creates a UML interaction diagram).
        
        2. A UML interaction diagram (sequence.png) 
