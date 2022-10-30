@@ -11,6 +11,12 @@ Aspect Program developed using: AspectJ
 
 Text-to-UML tool Used: PlantUML
 
+Source File (Src) contains: 
+
+         1. Java files (Blogger, Observer, Subject, Newsportal, Newspaper, MobileSubscriber, Test)
+         
+         2. AspectJ files (Instrumentator)
+
 Expected Outputs:
 
        1. A text file (sequence.txt) produced by the AspectJ program (used as input to the PlantUML tool, which in turn creates a UML interaction diagram).
