@@ -6,7 +6,7 @@ Authors: Sraddha Bhattacharjee (Student ID: 40221370)
         
 Goal: The created application demonstrates monitoring the execution of a scenario in the base application and saves data in a text file.
 
-Source Program developed using : 
+Source Program developed using : Java
 
 Aspect Program developed using: AspectJ
 
